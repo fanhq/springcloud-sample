@@ -1,6 +1,6 @@
 spring:
   application:
-    name: springcloud-zookeeper
+    name: hi-service
   cloud:
     zookeeper:
       connect-string: localhost:2181
