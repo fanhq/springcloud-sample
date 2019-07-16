@@ -12,6 +12,7 @@
     <description>Spring Cloud 学习实例</description>
     <modules>
         <module>springcloud-zookeeper</module>
+        <module>springcloud-feign</module>
     </modules>
 
     <parent>
