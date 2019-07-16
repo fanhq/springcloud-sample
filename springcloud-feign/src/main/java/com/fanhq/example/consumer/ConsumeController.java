@@ -16,7 +16,7 @@ public class ConsumeController {
     @Autowired
     private OpenClient openClient;
 
-    @RequestMapping("/hi")
+    @RequestMapping(value = "hi")
     public String hi() {
         return openClient.hi();
     }
