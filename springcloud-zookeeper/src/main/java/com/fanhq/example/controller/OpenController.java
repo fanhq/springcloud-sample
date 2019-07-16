@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/7/15
  */
 @RestController
-@RequestMapping(value = "open")
 public class OpenController {
 
-    @RequestMapping("/hi")
+    @RequestMapping(value = "hi")
     public String hi() {
         return "Hello World";
     }
