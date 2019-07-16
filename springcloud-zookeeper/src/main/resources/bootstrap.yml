@@ -1,10 +1,9 @@
 spring:
   application:
-    name: hi-client
+    name: hi-service
   cloud:
     zookeeper:
       connect-string: localhost:2181
       discovery:
-        register: false
-server:
-  port: 8082
+        enabled: true
+        register: true
