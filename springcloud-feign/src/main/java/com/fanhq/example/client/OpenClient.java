@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @Component
-@FeignClient(value = "hi-service")
+@FeignClient(value = "hi-service", path = "open")
 public interface OpenClient {
 
-    @RequestMapping(value = "open/hi")
+    @RequestMapping(path = "hi")
     public String hi();
 }

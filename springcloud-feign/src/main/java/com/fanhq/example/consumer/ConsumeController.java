@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/7/15
  */
 @RestController
-@RequestMapping(value = "consume")
+@RequestMapping(path = "consume")
 public class ConsumeController {
 
     @Autowired
     private OpenClient openClient;
 
-    @RequestMapping(value = "hi")
+    @RequestMapping(path = "hi")
     public String hi() {
         return openClient.hi();
     }
