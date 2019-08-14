@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: hi-client
-  cloud:
-    zookeeper:
-      connect-string: localhost:2181
-      discovery:
-        enabled: true
-        register: false
