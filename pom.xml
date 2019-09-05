@@ -8,7 +8,7 @@
     <artifactId>springcloud-sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springcloud-sample</name>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <description>Spring Cloud 学习实例</description>
     <modules>
         <module>springcloud-zookeeper</module>
