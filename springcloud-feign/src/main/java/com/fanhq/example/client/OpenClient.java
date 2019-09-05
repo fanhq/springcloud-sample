@@ -2,7 +2,7 @@ package com.fanhq.example.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * @author fanhaiqiu
@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @FeignClient(value = "hi-service", path = "open")
 public interface OpenClient {
 
-    @RequestMapping(path = "hi")
+    @GetMapping(path = "hi")
     public String hi();
 }
